@@ -1,0 +1,22 @@
+digraph {
+  rankdir=LR;
+  "Fundación"[shape=box][color=white]
+  "Rómulo y Remo"[shape=box][color=white]
+  "Hijo de Marte"[shape=box][color=white]
+  "Hijo de Rea Silvia"[shape=box][color=white]
+  "Amulio ordena matar"[shape=box][color=white]
+  "Deciden fundar una ciudad"[shape=box][color=white]
+  "Rómulo mata a Remo"[shape=box][color=white]
+  "Abandonados en el Tíber, cuidados por una loba, rescatados por un granjero"[shape=box][color=white]
+  "Protección de la distancia al mar"[shape=box][color=white]
+  "Rapto de las sabinas"[shape=box][color=white]
+  "Fundación"->"Rómulo y Remo"[color=black]
+  "Rómulo y Remo"->"Hijo de Marte"[color=black]
+  "Rómulo y Remo"->"Hijo de Rea Silvia"[color=black]
+  "Rómulo y Remo"->"Amulio ordena matar"[color=black]
+  "Rómulo y Remo"->"Deciden fundar una ciudad"[color=black]
+  "Deciden fundar una ciudad"->"Rómulo mata a Remo"[color=black]
+  "Rómulo y Remo"->"Abandonados en el Tíber, cuidados por una loba, rescatados por un granjero"[color=black]
+  "Deciden fundar una ciudad"->"Protección de la distancia al mar"[color=black]
+  "Deciden fundar una ciudad"->"Rapto de las sabinas"[color=black]
+}
